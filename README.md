@@ -4,12 +4,12 @@ Ejemplo de visualizar, agregar, eliminar y modificar un empleado usando el stack
 Se requiere tener instalado MongoDB y Node.JS.
 
 ## Ejecutar el servidor de MongoDB 
-mongod
+$ mongod
 
 ## Ejecutar el servidor del backend
-cd server
-npm run dev
+$ cd server
+$ npm run dev
 
 ## Ejecutar el servidor del frontend con Angular CLI
-cd frontend
-ng serve --o
+$ cd frontend
+$ ng serve --o
