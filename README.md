@@ -5,7 +5,7 @@ Se requiere tener instalado MongoDB y Node.JS.
 
 ## Ejecutar el servidor de MongoDB 
 ```console
-mongod
+$ mongod
 ```
 
 
