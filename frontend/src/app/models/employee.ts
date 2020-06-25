@@ -14,4 +14,5 @@ export class Employee {
   office: string;
   salary: number;
 
+  //Solo creamos el modelo de employee acorde al que creamos en la base de datos y los inicializamos con un constructor
 }

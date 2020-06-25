@@ -5,10 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmployeeComponent } from './components/employee/employee.component';
 import { HttpClientModule } from '@angular/common/http';
-import { EmployeeDataComponent } from './components/employee-data/employee-data.component';
 
 @NgModule({
-  declarations: [AppComponent, EmployeeComponent, EmployeeDataComponent],
+  declarations: [AppComponent, EmployeeComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
